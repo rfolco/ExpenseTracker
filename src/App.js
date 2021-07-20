@@ -40,10 +40,10 @@ const App = () => {
 
   return (
     <div>
-      <h1 style={{ color: 'white' }}>
+      <h2 style={{ color: 'white' }}>
         This is a basic expense tracker created during the "React - The Complete
         Guide" course by Maximilian Schwarzmuller
-      </h1>
+      </h2>
       <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses} />
     </div>
