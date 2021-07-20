@@ -40,7 +40,7 @@ const App = () => {
 
   return (
     <div>
-      <h2 style={{ color: 'white' }}>
+      <h2 style={{ color: 'white', textAlign: 'center' }}>
         This is a basic expense tracker created during the "React - The Complete
         Guide" course by Maximilian Schwarzmuller
       </h2>
